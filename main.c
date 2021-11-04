@@ -16,10 +16,7 @@ int main(){
     int indexForPrime = 0;
     int indexForStrong = 0;
 
-    printf("Please enter first number; \n");
-    scanf("%d", &inputA);
-    printf("Please enter the second number: \n");
-    scanf("%d", &inputB);
+    scanf("%d %d", &inputA, &inputB);
     if(inputA <= inputB){
         min = inputA;
         max = inputB;
