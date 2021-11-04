@@ -71,6 +71,7 @@ int main(){
         int currentNum = strongNumbers[i];
         printf(" %d", currentNum);
     }
+    printf("\n");
     return 0;
 
 
